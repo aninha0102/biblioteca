@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lateral com Logo</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+         <header>
+            <img class="logo" src="src/img/logo_livro.png" alt="logo">
+            <header>
+                <!-- Botão para abrir o menu -->
+                <button class="open-btn" onclick="openMenu()">Menu ☰</button>
+            </header>
+        
+            <!-- Menu Lateral -->
+            <aside id="menuLateral" class="menu-lateral">
+                <div class="usuario">
+                    <img src="src/img/perfilfoto.png" alt="Foto de Perfil" class="foto-perfil">
+                    <div class="usuario-info">
+                        <p class="nome-usuario">Usuario</p>
+                        <p class="email-usuario">email.com</p>
+                <div class="menu-header">
+                    <button class="close-btn" onclick="closeMenu()">× Fechar</button>
+                </div>
+                <ul>
+                    <li><a href="#">Minha Biblioteca</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </aside>
+        
+            <main>
+                <h1>Conteúdo da Página</h1>
+                <p>Este é o conteúdo principal da página.</p>
+            </main>
+        
+            <script src="script.js"></script>
+        </body>
+        </html>
+ 
