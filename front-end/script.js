@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:8080/livros"; // Update this with your actual backend API URL
+const apiUrl = "https://biblioteca-back-gcfpeud3dcemhmb3.brazilsouth-01.azurewebsites.net/livros"; // Update this with your actual backend API URL
 const modalContainer = document.getElementById("modal-container");
 const livroForm = document.getElementById("livroForm");
 const livrosTableBody = document.getElementById("livrosTableBody");
