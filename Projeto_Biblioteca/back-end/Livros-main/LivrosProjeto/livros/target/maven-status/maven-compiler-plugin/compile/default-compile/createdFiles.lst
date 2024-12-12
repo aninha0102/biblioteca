@@ -1,0 +1,8 @@
+com\livros\livro\DAO\DAOteste.class
+com\livros\livro\dto\LivroDTO.class
+com\livros\livro\LivroApplication.class
+com\livros\livro\controller\LivroController.class
+com\livros\livro\service\LivroService.class
+com\livros\livro\WebConfig.class
+com\livros\livro\model\LivroModel.class
+com\livros\livro\repository\LivroRepository.class
