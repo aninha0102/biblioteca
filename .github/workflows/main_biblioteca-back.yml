@@ -63,5 +63,5 @@ jobs:
         with:
           app-name: 'biblioteca-back'
           slot-name: 'Production'
-          package: 'back-end/Livros-main/LivrosProjeto/livros/target/*.jar'
+          package: '*.jar'
           
